@@ -34,10 +34,11 @@ source:
   sha256: 83e6b930f2e4125cdd534d1d884f86eb748214d02987c54e2cd306b1026a38f8  # [win64 and py35]
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
+    - toolchain
     - python
     - cmake  # [not win]
     - swig  # [not win]
@@ -50,9 +51,6 @@ requirements:
 test:
   imports:
     - otpmml
-  commands:
-    - conda inspect linkages -n _test otpmml  # [not win]
-    - conda inspect objects -n _test otpmml  # [osx]
 
 about:
   home: http://openturns.org/
