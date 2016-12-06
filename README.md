@@ -11,6 +11,18 @@ Summary: Meta-modeling exchange module
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/otpmml-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/otpmml-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/otpmml-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/otpmml-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/otpmml-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/otpmml-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/otpmml/badges/version.svg)](https://anaconda.org/conda-forge/otpmml)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/otpmml/badges/downloads.svg)](https://anaconda.org/conda-forge/otpmml)
+
 Installing otpmml
 =================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `otpmml` available on your platfor
 ```
 conda search otpmml --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/otpmml-feedstock-jschueller-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/otpmml-feedstock-jschueller-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/otpmml-feedstock-jschueller-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/otpmml-feedstock-jschueller-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/otpmml-feedstock-jschueller-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/otpmml-feedstock-jschueller-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/otpmml/badges/version.svg)](https://anaconda.org/conda-forge/otpmml)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/otpmml/badges/downloads.svg)](https://anaconda.org/conda-forge/otpmml)
 
 
 Updating otpmml-feedstock
