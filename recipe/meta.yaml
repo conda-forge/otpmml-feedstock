@@ -1,4 +1,4 @@
-{% set version = "1.3" %}
+{% set version = "1.4" %}
 
 package:
   name: otpmml
@@ -7,34 +7,34 @@ package:
 source:
   fn: otpmml-{{ version }}.tar.gz  # [not win]
   url: https://github.com/openturns/otpmml/archive/v{{ version }}.tar.gz  # [not win]
-  sha256: fdd1f253cfd2110aeaee82816103fe3cc30d72f42fea0159cf2e7c5c95eabc92  # [not win]
+  sha256: cb1203f445f7041817f68705e5a8d5ac3c47f030aec1ff87816103cf68e0407d  # [not win]
 
   fn: otpmml-{{ version }}-py2.7-i686.exe  # [win32 and py27]
-  url: https://github.com/openturns/build/releases/download/v1.8/otpmml-{{ version }}-py2.7-i686.exe  # [win32 and py27]
-  sha256: 522a4f74706061257bc3ec2056381890e2c02de70a5b86426c77cf4a0b476721  # [win32 and py27]
+  url: https://github.com/openturns/build-modules/releases/download/v1.9/otpmml-{{ version }}-py2.7-i686.exe  # [win32 and py27]
+  sha256: bc141eb15e76d2c95f9464c95d03187f6eb682295e94db183c38e4c6df67eaa7  # [win32 and py27]
 
   fn: otpmml-{{ version }}-py2.7-x86_64.exe  # [win64 and py27]
-  url: https://github.com/openturns/build/releases/download/v1.8/otpmml-{{ version }}-py2.7-x86_64.exe  # [win64 and py27]
-  sha256: 3f5875f329d086078c25537014e89f5e4c34f03dde3d98f9cef2e989f2fbe33c  # [win64 and py27]
-
-  fn: otpmml-{{ version }}-py3.4-i686.exe  # [win32 and py34]
-  url: https://github.com/openturns/build/releases/download/v1.8/otpmml-{{ version }}-py3.4-i686.exe  # [win32 and py34]
-  sha256: 848a1011e59d145a46d352f3f881a9beb392ab4c87d0b2dea02324473ff36a77  # [win32 and py34]
-
-  fn: otpmml-{{ version }}-py3.4-x86_64.exe  # [win64 and py34]
-  url: https://github.com/openturns/build/releases/download/v1.8/otpmml-{{ version }}-py3.4-x86_64.exe  # [win64 and py34]
-  sha256: 17e7e7ef0849a6b8139ee65117f51788599f9fb61fb563963f0a4a2bd241b234  # [win64 and py34]
+  url: https://github.com/openturns/build-modules/releases/download/v1.9/otpmml-{{ version }}-py2.7-x86_64.exe  # [win64 and py27]
+  sha256: 92d5f41541fc84f72d08fb557450e775d5c3ac1edb0754e640c07895c5c068bd  # [win64 and py27]
 
   fn: otpmml-{{ version }}-py3.5-i686.exe  # [win32 and py35]
-  url: https://github.com/openturns/build/releases/download/v1.8/otpmml-{{ version }}-py3.5-i686.exe  # [win32 and py35]
-  sha256: b859324ade98c838ac8e90ed6ec1b4165a5445db4ebabbac0d4c97af0bbd9e97  # [win32 and py35]
+  url: https://github.com/openturns/build-modules/releases/download/v1.9/otpmml-{{ version }}-py3.5-i686.exe  # [win32 and py35]
+  sha256: 69f2a3dde09c0c98eed6b9396a30d0dc0073e61c745bde32e943a05e324ad0ca  # [win32 and py35]
 
   fn: otpmml-{{ version }}-py3.5-x86_64.exe  # [win64 and py35]
-  url: https://github.com/openturns/build/releases/download/v1.8/otpmml-{{ version }}-py3.5-x86_64.exe  # [win64 and py35]
-  sha256: b11902f6de0357dbc6443d5dbf552dee1c24feec20e9534b9d255653a3667095  # [win64 and py35]
+  url: https://github.com/openturns/build-modules/releases/download/v1.9/otpmml-{{ version }}-py3.5-x86_64.exe  # [win64 and py35]
+  sha256: e7dba3cdd8b138973d4f28937673b06719de6503d7de2f0638dd9396560038c8  # [win64 and py35]
+
+  fn: otpmml-{{ version }}-py3.6-i686.exe  # [win32 and py36]
+  url: https://github.com/openturns/build-modules/releases/download/v1.9/otpmml-{{ version }}-py3.6-i686.exe  # [win32 and py36]
+  sha256: dd011f91d5c3a89cb4ff1504cc926f02b36730d0bfe9a3c1bdc4dee1c0ecf736  # [win32 and py36]
+
+  fn: otpmml-{{ version }}-py3.6-x86_64.exe  # [win64 and py36]
+  url: https://github.com/openturns/build-modules/releases/download/v1.9/otpmml-{{ version }}-py3.6-x86_64.exe  # [win64 and py36]
+  sha256: 5a5fbff418d6968b760cc056b5fc25bd5c7c1ed05578ca30ff63b803d0d76a49  # [win64 and py36]
 
 build:
-  number: 3
+  number: 0
 
 requirements:
   build:
@@ -54,7 +54,7 @@ test:
 
 about:
   home: http://openturns.org/
-  license: LGPLv3
+  license: LGPL3
   license_file: COPYING.LESSER  # [not win]
   summary: Meta-modeling exchange module
 
