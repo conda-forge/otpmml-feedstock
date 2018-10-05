@@ -1,5 +1,5 @@
 {% set version = "1.5" %}
-{% set ot_version = "1.11rc1" %}
+{% set ot_version = "1.12rc1" %}
 
 package:
   name: otpmml
@@ -12,18 +12,18 @@ source:
 
   fn: otpmml-{{ version }}-py2.7-x86_64.exe  # [win64 and py27]
   url: https://github.com/openturns/build-modules/releases/download/v{{ ot_version }}/otpmml-{{ version }}-py2.7-x86_64.exe  # [win64 and py27]
-  sha256: 05e46327a59447ba81468e6f13a82a30e48103652afea3a470900a901e1f170f  # [win64 and py27]
-
-  fn: otpmml-{{ version }}-py3.5-x86_64.exe  # [win64 and py35]
-  url: https://github.com/openturns/build-modules/releases/download/v{{ ot_version }}/otpmml-{{ version }}-py3.5-x86_64.exe  # [win64 and py35]
-  sha256: 38e63c74809061c1dff68ebc5656ef43668a8151fb4fbc4ca22f06c70f37edce  # [win64 and py35]
+  sha256: 6dd7d8749bcac18f066ab7988f4e32cf6c53ed793b6f24823c72a0dac512aae3  # [win64 and py27]
 
   fn: otpmml-{{ version }}-py3.6-x86_64.exe  # [win64 and py36]
   url: https://github.com/openturns/build-modules/releases/download/v{{ ot_version }}/otpmml-{{ version }}-py3.6-x86_64.exe  # [win64 and py36]
-  sha256: b1abcf4bae4147d982a70245fb44f7ae206f1c7d9cc3edf71fc6215c267becb2  # [win64 and py36]
+  sha256: 2d5f57489a0ea6c6405bcda7d7884c5df79bb93c963f048ecd610a154c7e9294  # [win64 and py36]
+
+  fn: otpmml-{{ version }}-py3.7-x86_64.exe  # [win64 and py37]
+  url: https://github.com/openturns/build-modules/releases/download/v{{ ot_version }}/otpmml-{{ version }}-py3.7-x86_64.exe  # [win64 and py37]
+  sha256: 930040544beb49d6b62bf7e2f1aa570636659ee6b1f76aa41d9a080242cf31be  # [win64 and py37]
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
