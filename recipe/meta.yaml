@@ -1,4 +1,4 @@
-{% set version = "1.6" %}
+{% set version = "1.7" %}
 
 package:
   name: otpmml
@@ -7,10 +7,10 @@ package:
 source:
   fn: otpmml-{{ version }}.tar.gz
   url: https://github.com/openturns/otpmml/archive/v{{ version }}.tar.gz
-  sha256: 9c7bb90e00bd56783cbe81a28b9b8df9348df759aed7b40129537e996c74c206
+  sha256: 677c034a8fa05eca57d249cf142595785622222ca2f1c4eca72c1e0d6c13d75b
 
 build:
-  number: 1001
+  number: 0
 
 requirements:
   build:
