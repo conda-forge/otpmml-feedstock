@@ -1,4 +1,4 @@
-{% set version = "1.10" %}
+{% set version = "1.11" %}
 
 package:
   name: otpmml
@@ -7,10 +7,10 @@ package:
 source:
   fn: otpmml-{{ version }}.tar.gz
   url: https://github.com/openturns/otpmml/archive/v{{ version }}.tar.gz
-  sha256: 390f27fa3057ec92e467a841f8c18662f182225c4aeedeeb3a1e1a0d09a60f8c
+  sha256: 0a364e36278bfb6d35e01906d5de1c051f628e50711f2f9c4cd96b51af7a766a
 
 build:
-  number: 1
+  number: 0
   run_exports:
     - {{ pin_subpackage('otpmml', max_pin='x.x') }}
 
@@ -23,10 +23,10 @@ requirements:
     - curl  # [win]
   host:
     - python
-    - openturns 1.16*
+    - openturns 1.17*
   run:
     - python
-    - openturns 1.16*
+    - openturns 1.17*
 
 test:
   imports:
