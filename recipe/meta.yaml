@@ -10,7 +10,7 @@ source:
   sha256: 0a364e36278bfb6d35e01906d5de1c051f628e50711f2f9c4cd96b51af7a766a
 
 build:
-  number: 0
+  number: 1
   run_exports:
     - {{ pin_subpackage('otpmml', max_pin='x.x') }}
 
@@ -23,10 +23,10 @@ requirements:
     - curl  # [win]
   host:
     - python
-    - openturns 1.17*
+    - openturns 1.18*
   run:
     - python
-    - openturns 1.17*
+    - openturns 1.18*
 
 test:
   imports:
