@@ -10,7 +10,7 @@ source:
   sha256: ce88b0d69e1a7dcb47821fbdca25b4a9830831d156407601c659cd233cafcba9
 
 build:
-  number: 3
+  number: 4
   run_exports:
     - {{ pin_subpackage('otpmml', max_pin='x.x') }}
 
